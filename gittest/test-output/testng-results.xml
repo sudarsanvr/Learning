@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29409" started-at="2018-01-24T21:17:06Z" finished-at="2018-01-24T21:17:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29409" started-at="2018-01-24T21:17:06Z" finished-at="2018-01-24T21:17:35Z">
+      <class name="guru99.gittest.Guru99">
+        <test-method status="PASS" signature="setup()[pri:0, instance:guru99.gittest.Guru99@17579e0f]" name="setup" is-config="true" duration-ms="25221" started-at="2018-01-25T02:47:06Z" finished-at="2018-01-25T02:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="successfulLogin()[pri:0, instance:guru99.gittest.Guru99@17579e0f]" name="successfulLogin" duration-ms="1726" started-at="2018-01-25T02:47:31Z" finished-at="2018-01-25T02:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:guru99.gittest.Guru99@17579e0f]" name="quit" is-config="true" duration-ms="2396" started-at="2018-01-25T02:47:33Z" finished-at="2018-01-25T02:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- guru99.gittest.Guru99 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
