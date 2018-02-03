@@ -1,25 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29409" started-at="2018-01-24T21:17:06Z" finished-at="2018-01-24T21:17:35Z">
+  <suite name="Guru99 Application Test" duration-ms="130876" started-at="2018-02-03T14:32:29Z" finished-at="2018-02-03T14:34:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29409" started-at="2018-01-24T21:17:06Z" finished-at="2018-01-24T21:17:35Z">
-      <class name="guru99.gittest.Guru99">
-        <test-method status="PASS" signature="setup()[pri:0, instance:guru99.gittest.Guru99@17579e0f]" name="setup" is-config="true" duration-ms="25221" started-at="2018-01-25T02:47:06Z" finished-at="2018-01-25T02:47:31Z">
+    <test name="Smoke Test" duration-ms="130876" started-at="2018-02-03T14:32:29Z" finished-at="2018-02-03T14:34:40Z">
+      <class name="com.guru99.qa.testcases.DepositPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.qa.testcases.DepositPageTest@13deb50e]" name="setup" is-config="true" duration-ms="18246" started-at="2018-02-03T20:03:37Z" finished-at="2018-02-03T20:03:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="successfulLogin()[pri:0, instance:guru99.gittest.Guru99@17579e0f]" name="successfulLogin" duration-ms="1726" started-at="2018-01-25T02:47:31Z" finished-at="2018-01-25T02:47:33Z">
+        <test-method status="PASS" signature="DepositPageTitleTest()[pri:1, instance:com.guru99.qa.testcases.DepositPageTest@13deb50e]" name="DepositPageTitleTest" duration-ms="25" started-at="2018-02-03T20:03:56Z" finished-at="2018-02-03T20:03:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- successfulLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:guru99.gittest.Guru99@17579e0f]" name="quit" is-config="true" duration-ms="2396" started-at="2018-01-25T02:47:33Z" finished-at="2018-01-25T02:47:35Z">
+        </test-method> <!-- DepositPageTitleTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.DepositPageTest@13deb50e]" name="quit" is-config="true" duration-ms="760" started-at="2018-02-03T20:03:56Z" finished-at="2018-02-03T20:03:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- guru99.gittest.Guru99 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.qa.testcases.DepositPageTest@13deb50e]" name="setup" is-config="true" duration-ms="14194" started-at="2018-02-03T20:04:08Z" finished-at="2018-02-03T20:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DepositePageLabelTest()[pri:2, instance:com.guru99.qa.testcases.DepositPageTest@13deb50e]" name="DepositePageLabelTest" duration-ms="47" started-at="2018-02-03T20:04:22Z" finished-at="2018-02-03T20:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepositePageLabelTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.DepositPageTest@13deb50e]" name="quit" is-config="true" duration-ms="997" started-at="2018-02-03T20:04:22Z" finished-at="2018-02-03T20:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.guru99.qa.testcases.DepositPageTest -->
+      <class name="com.guru99.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@464bee09]" name="setup" is-config="true" duration-ms="11667" started-at="2018-02-03T20:03:25Z" finished-at="2018-02-03T20:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTitleTest()[pri:1, instance:com.guru99.qa.testcases.LoginPageTest@464bee09]" name="LoginTitleTest" duration-ms="17" started-at="2018-02-03T20:03:36Z" finished-at="2018-02-03T20:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTitleTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@464bee09]" name="quit" is-config="true" duration-ms="947" started-at="2018-02-03T20:03:36Z" finished-at="2018-02-03T20:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@464bee09]" name="setup" is-config="true" duration-ms="10708" started-at="2018-02-03T20:03:56Z" finished-at="2018-02-03T20:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginLogoTest()[pri:2, instance:com.guru99.qa.testcases.LoginPageTest@464bee09]" name="LoginLogoTest" duration-ms="74" started-at="2018-02-03T20:04:07Z" finished-at="2018-02-03T20:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogoTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@464bee09]" name="quit" is-config="true" duration-ms="777" started-at="2018-02-03T20:04:07Z" finished-at="2018-02-03T20:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@464bee09]" name="setup" is-config="true" duration-ms="13763" started-at="2018-02-03T20:04:23Z" finished-at="2018-02-03T20:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="successfulLoginTest()[pri:3, instance:com.guru99.qa.testcases.LoginPageTest@464bee09]" name="successfulLoginTest" duration-ms="2562" started-at="2018-02-03T20:04:37Z" finished-at="2018-02-03T20:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@464bee09]" name="quit" is-config="true" duration-ms="747" started-at="2018-02-03T20:04:39Z" finished-at="2018-02-03T20:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.guru99.qa.testcases.LoginPageTest -->
+      <class name="com.guru99.qa.testcases.ManagerPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.qa.testcases.ManagerPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="35621" started-at="2018-02-03T20:02:29Z" finished-at="2018-02-03T20:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoggedUserTitleTest()[pri:0, instance:com.guru99.qa.testcases.ManagerPageTest@f6c48ac]" name="LoggedUserTitleTest" duration-ms="86" started-at="2018-02-03T20:03:05Z" finished-at="2018-02-03T20:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedUserTitleTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.ManagerPageTest@f6c48ac]" name="quit" is-config="true" duration-ms="2880" started-at="2018-02-03T20:03:05Z" finished-at="2018-02-03T20:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.qa.testcases.ManagerPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="15759" started-at="2018-02-03T20:03:08Z" finished-at="2018-02-03T20:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ManagerPageTitleTest()[pri:0, instance:com.guru99.qa.testcases.ManagerPageTest@f6c48ac]" name="ManagerPageTitleTest" duration-ms="18" started-at="2018-02-03T20:03:24Z" finished-at="2018-02-03T20:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagerPageTitleTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.ManagerPageTest@f6c48ac]" name="quit" is-config="true" duration-ms="912" started-at="2018-02-03T20:03:24Z" finished-at="2018-02-03T20:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.guru99.qa.testcases.ManagerPageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Guru99 Application Test -->
 </testng-results>
