@@ -15,6 +15,7 @@ public class ManagerPageTest extends TestBase {
 
 	public ManagerPageTest() throws IOException {
 		super();
+
 	}
 
 	@BeforeMethod

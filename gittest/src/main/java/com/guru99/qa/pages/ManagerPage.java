@@ -10,12 +10,14 @@ import com.guru99.qa.util.Utilities;
 public class ManagerPage extends TestBase {
 	public static Deposit deposit;
 	public static Utilities utils;
+	public static NewCustomerPage Newcustomer;
 
 	public ManagerPage() throws IOException {
 		super();
 		PageFactory.initElements(driver, this);
 		deposit = new Deposit();
 		utils = new Utilities();
+		Newcustomer = new NewCustomerPage();
 	}
 
 	@FindBy(xpath = "//img[@src='../images/1.gif']")
@@ -78,8 +80,9 @@ public class ManagerPage extends TestBase {
 		return new ManagerPage();
 	}
 
-	public NewCustomerPage NewCustomerMenuPage() {
+	public NewCustomerPage NewCustomerMenuPage() throws IOException {
 		NewCustomerMenu.click();
+		utils.explicitwaitbyclickability(Newcustomer.submitbutton);
 		return new NewCustomerPage();
 	}
 

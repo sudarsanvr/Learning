@@ -2,6 +2,7 @@ package com.guru99.qa.util;
 
 import java.io.IOException;
 
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -24,5 +25,15 @@ public class Utilities extends TestBase {
 
 	public void explicitwaitbyclickability(WebElement element) {
 		Explicitwait.until(ExpectedConditions.elementToBeClickable(element));
+	}
+
+	public void isalertpresent() {
+		try {
+			driver.switchTo().alert();
+			alert.dismiss();
+		} catch (NoAlertPresentException E) {
+			E.getMessage();
+		}
+
 	}
 }

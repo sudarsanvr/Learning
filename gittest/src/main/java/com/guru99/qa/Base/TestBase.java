@@ -4,12 +4,16 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class TestBase {
@@ -20,6 +24,10 @@ public class TestBase {
 	public static FileInputStream File;
 	public static FirefoxOptions options;
 	public static WebDriverWait Explicitwait;
+	public static XSSFWorkbook Excelbook;
+	public static XSSFSheet ExcelSheet;
+	public static XSSFCell Excelcell;
+	public static Alert alert;
 
 	public TestBase() throws IOException {
 		Prop = new Properties();
@@ -48,8 +56,10 @@ public class TestBase {
 		}
 		driver.manage().window().maximize();
 		driver.get(Prop.getProperty("url"));
-		//driver.manage().timeouts().pageLoadTimeout(Utilities.PAGE_LOAD_WAIT, TimeUnit.SECONDS);
-		//driver.manage().timeouts().implicitlyWait(Utilities.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		// driver.manage().timeouts().pageLoadTimeout(Utilities.PAGE_LOAD_WAIT,
+		// TimeUnit.SECONDS);
+		// driver.manage().timeouts().implicitlyWait(Utilities.IMPLICIT_WAIT,
+		// TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 	}
 

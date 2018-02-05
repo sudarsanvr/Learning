@@ -22,5 +22,8 @@
 	<classpathentry kind="lib" path="C:/Users/sudarsan/Downloads/selenium-server-standalone-3.4.0.jar"/>
 	<classpathentry kind="lib" path="C:/workspace/Selenium/testng-6.11.jar" sourcepath="C:/Users/sudarsan/Downloads/Selenium doc/testng-6.9.6-sources.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/sudarsan/Downloads/poi-bin-3.17-beta1-20170701.zip"/>
+	<classpathentry kind="lib" path="C:/Users/sudarsan/Downloads/poi-bin-3.17-beta1-20170701/poi-3.17-beta1/poi-ooxml-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sudarsan/Downloads/poi-bin-3.17-beta1-20170701/poi-3.17-beta1/poi-3.17-beta1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.guru99.qa.testcases.DepositPageTest">
+      <class name="com.guru99.qa.testcases.NewCustomerPageTest">
         <methods>
-          <include name="DepositPageTitleTest"/>
-          <include name="quit"/>
-          <include name="DepositePageLabelTest"/>
-          <include name="setup"/>
+          <include name="dataprovider"/>
+          <include name="beforeMethod"/>
+          <include name="CreateNewCustomerTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.guru99.qa.testcases.DepositPageTest -->
+      </class> <!-- com.guru99.qa.testcases.NewCustomerPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
