@@ -25,7 +25,7 @@ public class TestBase {
 	public static FirefoxOptions options;
 	public static WebDriverWait Explicitwait;
 	public static XSSFWorkbook Excelbook;
-	public static XSSFSheet ExcelSheet;
+	public static XSSFSheet ExcelSheet1,ExcelSheet2;
 	public static XSSFCell Excelcell;
 	public static Alert alert;
 

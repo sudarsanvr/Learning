@@ -7,7 +7,7 @@
         <methods>
           <include name="dataprovider"/>
           <include name="beforeMethod"/>
-          <include name="CreateNewCustomerTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="CreateNewCustomerTest" invocation-numbers="0 1 2"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.guru99.qa.testcases.NewCustomerPageTest -->

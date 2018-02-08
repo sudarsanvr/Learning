@@ -127,7 +127,7 @@ public class ManagerPage extends TestBase {
 		return new FundTransferPage();
 	}
 
-	public BalanceEnquiryPage BalanceEnquiryMenuPage() {
+	public BalanceEnquiryPage BalanceEnquiryMenuPage() throws IOException {
 		BalanceEnquiryMenu.click();
 		return new BalanceEnquiryPage();
 	}

@@ -1,89 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="96497" started-at="2018-02-05T20:42:35Z" finished-at="2018-02-05T20:44:12Z">
+  <suite name="Default suite" duration-ms="61454" started-at="2018-02-08T13:55:57Z" finished-at="2018-02-08T13:56:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="96497" started-at="2018-02-05T20:42:35Z" finished-at="2018-02-05T20:44:12Z">
+    <test name="Default test" duration-ms="61454" started-at="2018-02-08T13:55:57Z" finished-at="2018-02-08T13:56:59Z">
       <class name="com.guru99.qa.testcases.NewCustomerPageTest">
-        <test-method status="PASS" signature="dataprovider()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="dataprovider" is-config="true" duration-ms="1289" started-at="2018-02-06T02:12:35Z" finished-at="2018-02-06T02:12:37Z">
+        <test-method status="PASS" signature="dataprovider()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="dataprovider" is-config="true" duration-ms="4177" started-at="2018-02-08T19:25:57Z" finished-at="2018-02-08T19:26:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataprovider -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="beforeMethod" is-config="true" duration-ms="18237" started-at="2018-02-06T02:12:37Z" finished-at="2018-02-06T02:12:55Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="beforeMethod" is-config="true" duration-ms="46230" started-at="2018-02-08T19:26:02Z" finished-at="2018-02-08T19:26:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CreateNewCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="CreateNewCustomerTest" duration-ms="1003" started-at="2018-02-06T02:12:55Z" data-provider="NewcustomerExcel" finished-at="2018-02-06T02:12:56Z">
+        <test-method status="PASS" signature="CreateNewCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="CreateNewCustomerTest" duration-ms="8010" started-at="2018-02-08T19:26:48Z" data-provider="ReadNewcustomerExcel" finished-at="2018-02-08T19:26:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ram]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[17/05/1986]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Kolapakkam]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[TN]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[600125]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[9958471254]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[asd1@sad.com]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[sairam123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewCustomerTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="afterMethod" is-config="true" duration-ms="2133" started-at="2018-02-06T02:12:56Z" finished-at="2018-02-06T02:12:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="beforeMethod" is-config="true" duration-ms="13557" started-at="2018-02-06T02:12:58Z" finished-at="2018-02-06T02:13:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CreateNewCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="CreateNewCustomerTest" duration-ms="888" started-at="2018-02-06T02:13:12Z" data-provider="NewcustomerExcel" finished-at="2018-02-06T02:13:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kumar]]>
+                <![CDATA[sherlock]]>
               </value>
             </param>
             <param index="1">
@@ -93,12 +29,12 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[14/05/1987]]>
+                <![CDATA[13/05/1990]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[ramapuram]]>
+                <![CDATA[t nagar]]>
               </value>
             </param>
             <param index="4">
@@ -113,17 +49,17 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[600126]]>
+                <![CDATA[600184]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[9958471255]]>
+                <![CDATA[9958471260]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[asd2@sad.com]]>
+                <![CDATA[1234@gm.com]]>
               </value>
             </param>
             <param index="9">
@@ -135,199 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateNewCustomerTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="afterMethod" is-config="true" duration-ms="809" started-at="2018-02-06T02:13:13Z" finished-at="2018-02-06T02:13:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="beforeMethod" is-config="true" duration-ms="14716" started-at="2018-02-06T02:13:13Z" finished-at="2018-02-06T02:13:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CreateNewCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="CreateNewCustomerTest" duration-ms="810" started-at="2018-02-06T02:13:28Z" data-provider="NewcustomerExcel" finished-at="2018-02-06T02:13:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sanjay]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[15/05/1988]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[T nagar]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[TN]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[600127]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[9958471256]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[asd3@sad.com]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[sairam123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewCustomerTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="afterMethod" is-config="true" duration-ms="752" started-at="2018-02-06T02:13:29Z" finished-at="2018-02-06T02:13:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="beforeMethod" is-config="true" duration-ms="14685" started-at="2018-02-06T02:13:30Z" finished-at="2018-02-06T02:13:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CreateNewCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="CreateNewCustomerTest" duration-ms="919" started-at="2018-02-06T02:13:44Z" data-provider="NewcustomerExcel" finished-at="2018-02-06T02:13:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anand]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[m]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[16/05/1989]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[koyanbaettu]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[TN]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[600128]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[9958471257]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[asd4@sad.com]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[sairam123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewCustomerTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="afterMethod" is-config="true" duration-ms="1029" started-at="2018-02-06T02:13:45Z" finished-at="2018-02-06T02:13:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="beforeMethod" is-config="true" duration-ms="23810" started-at="2018-02-06T02:13:46Z" finished-at="2018-02-06T02:14:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CreateNewCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="CreateNewCustomerTest" duration-ms="862" started-at="2018-02-06T02:14:10Z" data-provider="NewcustomerExcel" finished-at="2018-02-06T02:14:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[praveen]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[f]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[11/05/1990]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[kanchipuram]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[TN]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[600129]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[9958471258]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[asd5@sad.com]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[sairam123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateNewCustomerTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="afterMethod" is-config="true" duration-ms="869" started-at="2018-02-06T02:14:11Z" finished-at="2018-02-06T02:14:12Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.guru99.qa.testcases.NewCustomerPageTest@589838eb]" name="afterMethod" is-config="true" duration-ms="2732" started-at="2018-02-08T19:26:56Z" finished-at="2018-02-08T19:26:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
