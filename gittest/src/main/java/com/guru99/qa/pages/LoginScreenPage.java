@@ -2,6 +2,7 @@ package com.guru99.qa.pages;
 
 import java.io.IOException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.guru99.qa.Base.TestBase;
@@ -19,13 +20,17 @@ public class LoginScreenPage extends TestBase {
 	}
 
 	@FindBy(name = "uid")
-	WebElement UserIdEditBox;
+	@CacheLookup
+	public WebElement UserIdEditBox;
 	@FindBy(name = "password")
-	WebElement PasswordEditBox;
-	@FindBy(name = "btnLogin")
-	WebElement LoginButton;
+	@CacheLookup
+	public WebElement PasswordEditBox;
+	@FindBy(name = "btnLogi")
+	@CacheLookup
+	public WebElement LoginButton;
 	@FindBy(className = "barone")
-	WebElement HomeLogo;
+	@CacheLookup
+	public WebElement HomeLogo;
 
 	public String GetHomeTitle() {
 		return driver.getTitle();

@@ -2,6 +2,7 @@ package com.guru99.qa.pages;
 
 import java.io.IOException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.guru99.qa.Base.TestBase;
@@ -14,16 +15,22 @@ public class Deposit extends TestBase {
 	}
 
 	@FindBy(name = "accountno")
+	@CacheLookup
 	public WebElement AccountNoEditbox;
 	@FindBy(name = "ammount")
+	@CacheLookup
 	public WebElement AmountEditbox;
 	@FindBy(name = "desc")
+	@CacheLookup
 	public WebElement DescEditbox;
 	@FindBy(name = "AccSubmit")
+	@CacheLookup
 	public WebElement SubmitButton;
 	@FindBy(name = "res")
+	@CacheLookup
 	public WebElement ResetButton;
 	@FindBy(xpath = "//p[contains(text(),'Amount Deposit Form')]")
+	@CacheLookup
 	public WebElement PageTitleLabel;
 
 	public String GetDepositeTitle() {

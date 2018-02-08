@@ -2,6 +2,7 @@ package com.guru99.qa.pages;
 
 import java.io.IOException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.guru99.qa.Base.TestBase;
@@ -21,38 +22,55 @@ public class ManagerPage extends TestBase {
 	}
 
 	@FindBy(xpath = "//img[@src='../images/1.gif']")
+	@CacheLookup
 	public WebElement Image1Logo;
 	@FindBy(xpath = "//img[@src='../images/2.gif']")
+	@CacheLookup
 	public WebElement Image2Logo;
 	@FindBy(xpath = "//img[@src='../images/3.gif']")
+	@CacheLookup
 	public WebElement Image3Logo;
 	@FindBy(xpath = "//tr[3]/td[1]")
+	@CacheLookup
 	public WebElement LoggedUserTitle;
 	@FindBy(xpath = "//a[contains(text(),'Manager')]")
+	@CacheLookup
 	public WebElement ManagerMenu;
 	@FindBy(xpath = "//a[contains(text(),'New Customer')]")
+	@CacheLookup
 	public WebElement NewCustomerMenu;
 	@FindBy(xpath = "//a[contains(text(),'Edit Customer')]")
+	@CacheLookup
 	public WebElement EditCustomerMenu;
 	@FindBy(xpath = "//a[contains(text(),'Delete Customer')]")
+	@CacheLookup
 	public WebElement DeleteCustomerMenu;
 	@FindBy(xpath = "//a[contains(text(),'New Account')]")
+	@CacheLookup
 	public WebElement NewAccountMenu;
 	@FindBy(xpath = "//a[contains(text(),'Edit Account')]")
+	@CacheLookup
 	public WebElement EditAccountMenu;
 	@FindBy(xpath = "//a[contains(text(),'Delete Account')]")
+	@CacheLookup
 	public WebElement DeleteAccountMenu;
 	@FindBy(xpath = "//a[contains(text(),'Deposit')]")
+	@CacheLookup
 	public WebElement DepositMenu;
 	@FindBy(xpath = "//a[contains(text(),'Withdrawal')]")
+	@CacheLookup
 	public WebElement WithdrawalMenu;
 	@FindBy(xpath = "//a[contains(text(),'Fund Transfer')]")
+	@CacheLookup
 	public WebElement FundTransferMenu;
 	@FindBy(xpath = "//a[contains(text(),'Balance Enquiry')]")
+	@CacheLookup
 	public WebElement BalanceEnquiryMenu;
 	@FindBy(xpath = "//a[contains(text(),'Customised Statement')]")
+	@CacheLookup
 	public WebElement CustomisedStatementMenu;
 	@FindBy(xpath = "//a[contains(text(),'Log out')]")
+	@CacheLookup
 	public WebElement LogoutMenu;
 
 	public String GetManagerTitle() {

@@ -39,7 +39,7 @@ public class NewCustomerPageTest extends TestBase {
 
 	@Test(dataProvider = "ReadNewcustomerExcel", dataProviderClass = DataProviders.class)
 	public void CreateNewCustomerTest(String customerName, String gender, String dateofbirth, String address,
-			String city, String state, String pin, String mobilenumber, String email, String password) {
+		String city, String state, String pin, String mobilenumber, String email, String password) {
 		Newcustomer.CreateNewCustomer(customerName, gender, dateofbirth, address, city, state, pin, mobilenumber, email,password);
 		String AddCustomerMsg = Newcustomer.GetAddCustomerMsg();
 		Newcustomer.GetCustomerDetails();

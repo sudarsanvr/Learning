@@ -1,12 +1,14 @@
 package com.guru99.qa.util;
 
 import java.io.IOException;
-
+import java.io.*;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import org.apache.commons.io.FileUtils;
 import com.guru99.qa.Base.TestBase;
 
 public class Utilities extends TestBase {
@@ -34,6 +36,12 @@ public class Utilities extends TestBase {
 		} catch (NoAlertPresentException E) {
 			E.getMessage();
 		}
+	}
 
+	public static void TakescreenshotOnException(String PageName) throws IOException {
+		File srcfile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String currenturl = System.getProperty("user.dir");
+		FileUtils.copyFile(srcfile,
+				new File(currenturl + "/screenshot/" + PageName + "_" + System.currentTimeMillis() + ".png"));
 	}
 }

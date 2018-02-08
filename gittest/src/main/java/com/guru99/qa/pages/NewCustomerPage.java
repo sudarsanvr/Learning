@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.guru99.qa.Base.TestBase;
@@ -20,32 +21,46 @@ public class NewCustomerPage extends TestBase {
 	}
 
 	@FindBy(xpath = "//p[contains(text(),'Add New Customer')]")
+	@CacheLookup
 	public WebElement NewCustomerPageLabel;
 	@FindBy(name = "name")
+	@CacheLookup
 	public WebElement CustomerNameEditbox;
 	@FindBy(name = "dob")
+	@CacheLookup
 	public WebElement DateOfBirthEditbox;
 	@FindBy(name = "addr")
+	@CacheLookup
 	public WebElement AddressEditbox;
 	@FindBy(name = "city")
+	@CacheLookup
 	public WebElement CityEditBox;
 	@FindBy(name = "state")
+	@CacheLookup
 	public WebElement StateEditbox;
 	@FindBy(name = "pinno")
+	@CacheLookup
 	public WebElement PINEditbox;
 	@FindBy(name = "telephoneno")
+	@CacheLookup
 	public WebElement MobileNumberEditbox;
 	@FindBy(name = "emailid")
+	@CacheLookup
 	public WebElement EMailEditbox;
 	@FindBy(name = "password")
+	@CacheLookup
 	public WebElement PasswordEditbox;
 	@FindBy(name = "sub")
+	@CacheLookup
 	public WebElement submitbutton;
 	@FindBy(xpath = "//tr[4]/td[2]")
+	@CacheLookup
 	public WebElement CustomerIDLabel;
 	@FindBy(xpath = "//table[@id='customer']/tbody")
+	@CacheLookup
 	public List<WebElement> CustomerTable;
 	@FindBy(xpath = "//p[contains(text(),'Customer Registered Successfully')]")
+	@CacheLookup
 	public WebElement AddCustomerSuccessmsg;
 
 	public String GetNewCustomerPageTitle() {
@@ -97,15 +112,14 @@ public class NewCustomerPage extends TestBase {
 		return CustomerTabledata;
 	}
 
-	/*public ArrayList<String> GetCustomerTable() {
-		ArrayList<String> CustomerTabledata = new ArrayList<String>();
-		List<WebElement> CustomerForm = GetCustomerFormPage();
-		int len = CustomerForm.size();
-		for (int i = 0; i < len; i++) {
-			CustomerTabledata.add(CustomerForm.get(i).getText().trim());
-		}
-		return CustomerTabledata;
-	}*/
+	/*
+	 * public ArrayList<String> GetCustomerTable() { ArrayList<String>
+	 * CustomerTabledata = new ArrayList<String>(); List<WebElement>
+	 * CustomerForm = GetCustomerFormPage(); int len = CustomerForm.size(); for
+	 * (int i = 0; i < len; i++) {
+	 * CustomerTabledata.add(CustomerForm.get(i).getText().trim()); } return
+	 * CustomerTabledata; }
+	 */
 
 	public void GetCustomerDetails() {
 		String CustomerID, CustomerName, Gender, Birthdate, Address, City, State, Pin, MobileNo, Email;
