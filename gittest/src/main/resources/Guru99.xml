@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Guru99 Application Test">
-	<test name="Smoke Test">
+	<listeners>
+		<listener class-name="com.guru99.qa.ExtendReport.ExtentReporterNG"></listener>
+	</listeners>
+	<test name="Smoke Test" preserve-order="true">
+
 		<classes>
 			<class name="com.guru99.qa.testcases.LoginPageTest"></class>
 			<class name="com.guru99.qa.testcases.ManagerPageTest"></class>
 			<class name="com.guru99.qa.testcases.DepositPageTest"></class>
-			<class name="com.guru99.qa.testcases.NewCustomerPageTest"></class>
+			<!--<class name="com.guru99.qa.testcases.NewCustomerPageTest"></class> -->
 		</classes>
 	</test>
 </suite>

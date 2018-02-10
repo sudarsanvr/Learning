@@ -25,7 +25,7 @@ public class LoginScreenPage extends TestBase {
 	@FindBy(name = "password")
 	@CacheLookup
 	public WebElement PasswordEditBox;
-	@FindBy(name = "btnLogi")
+	@FindBy(name = "btnLogin")
 	@CacheLookup
 	public WebElement LoginButton;
 	@FindBy(className = "barone")
