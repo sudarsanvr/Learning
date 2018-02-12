@@ -10,7 +10,7 @@
 			<class name="com.guru99.qa.testcases.LoginPageTest"></class>
 			<class name="com.guru99.qa.testcases.ManagerPageTest"></class>
 			<class name="com.guru99.qa.testcases.DepositPageTest"></class>
-			<!--<class name="com.guru99.qa.testcases.NewCustomerPageTest"></class> -->
+			<class name="com.guru99.qa.testcases.NewCustomerPageTest"></class>
 		</classes>
 	</test>
 </suite>
