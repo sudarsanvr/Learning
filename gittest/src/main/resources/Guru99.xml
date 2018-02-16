@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Guru99 Application Test">
+<suite name="Guru99 Application Test" preserve-order="true">
 	<listeners>
 		<listener class-name="com.guru99.qa.ExtendReport.ExtentReporterNG"></listener>
 	</listeners>

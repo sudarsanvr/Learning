@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.003252">
+<testcase classname="Title of your feature" name="Guru99 Successful login using DataTables" time="26.003252">
+<system-out><![CDATA[Given user is on the login screen...........................................passed
+When Login page is displayed................................................passed
+Then user enters username and password......................................passed
+Then user clicks on Login button............................................passed
+And user is on Home page....................................................passed
+Then user clicks on Add Customer Link.......................................passed
+And user enters customer details Customer Name and Gender and Date of Birth and City and State and PIN.passed
+And user closes the browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
