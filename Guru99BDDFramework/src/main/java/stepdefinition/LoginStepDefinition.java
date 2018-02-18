@@ -1,12 +1,11 @@
 package stepdefinition;
 
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -37,24 +36,41 @@ public class LoginStepDefinition {
 
 	@Then("^user enters username and password$")
 	public void user_enters_username_and_password(DataTable credentials) {
-		// List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
 		List<List<String>> data = credentials.raw();
-		// E,K,V must be a scalar (String, Integer, Date, enum etc)
 		driver.findElement(By.name("uid")).sendKeys(data.get(0).get(0));
 		driver.findElement(By.name("password")).sendKeys(data.get(0).get(1));
+	}
+
+	@Then("^user enters multiple customer details Customer Name and Gender and Date of Birth and City and State and PIN$")
+	public void user_enters_multiple_customer_details_Customer_Name_and_Gender_and_Date_of_Birth_and_City_and_State_and_PIN(
+			DataTable customerdetails) throws InterruptedException {
+		for (Map<String, String> data : customerdetails.asMaps(String.class, String.class)) {
+			driver.findElement(By.name("name")).sendKeys(data.get("Customername"));
+			driver.findElement(By.xpath("//input[@value='" + data.get("Gender") + "']")).click();
+			driver.findElement(By.name("dob")).sendKeys(data.get("DateofBirth"));
+			driver.findElement(By.name("city")).sendKeys(data.get("City"));
+			driver.findElement(By.name("state")).sendKeys(data.get("State"));
+		}
+		Thread.sleep(5000);
+	}
+
+	@Then("^user enters their username and password$")
+	public void user_enters_their_username_and_password(DataTable usercredentials) {
+		for (Map<String, String> data : usercredentials.asMaps(String.class, String.class)) {
+			driver.findElement(By.name("uid")).sendKeys(data.get("username"));
+			driver.findElement(By.name("password")).sendKeys(data.get("password"));
+		}
 	}
 
 	@Then("^user enters customer details Customer Name and Gender and Date of Birth and City and State and PIN$")
 	public void user_enters_customer_details_Customer_Name_and_Gender_and_Date_of_Birth_and_City_and_State_and_PIN(
 			DataTable customerDetails) throws InterruptedException {
-		// List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
 		List<List<String>> data = customerDetails.raw();
-		// E,K,V must be a scalar (String, Integer, Date, enum etc)
-				driver.findElement(By.name("name")).sendKeys(data.get(0).get(0));
-				driver.findElement(By.xpath("//input[@value='" + data.get(0).get(1) + "']")).click();
-				driver.findElement(By.name("dob")).sendKeys(data.get(0).get(2));
-				driver.findElement(By.name("city")).sendKeys(data.get(0).get(3));
-				driver.findElement(By.name("state")).sendKeys(data.get(0).get(4));
+		driver.findElement(By.name("name")).sendKeys(data.get(0).get(0));
+		driver.findElement(By.xpath("//input[@value='" + data.get(0).get(1) + "']")).click();
+		driver.findElement(By.name("dob")).sendKeys(data.get(0).get(2));
+		driver.findElement(By.name("city")).sendKeys(data.get(0).get(3));
+		driver.findElement(By.name("state")).sendKeys(data.get(0).get(4));
 		Thread.sleep(5000);
 	}
 

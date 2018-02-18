@@ -77,7 +77,7 @@
     "line": 20,
     "elements": [
       {
-        "line": 56,
+        "line": 69,
         "name": "Guru99 Successful login using DataTables",
         "description": "",
         "id": "title-of-your-feature;guru99-successful-login-using-datatables",
@@ -86,10 +86,10 @@
         "steps": [
           {
             "result": {
-              "duration": 14638865160,
+              "duration": 55173209250,
               "status": "passed"
             },
-            "line": 57,
+            "line": 70,
             "name": "user is on the login screen",
             "match": {
               "location": "LoginStepDefinition.user_is_on_the_login_screen()"
@@ -98,10 +98,10 @@
           },
           {
             "result": {
-              "duration": 14724899,
+              "duration": 18780700,
               "status": "passed"
             },
-            "line": 58,
+            "line": 71,
             "name": "Login page is displayed",
             "match": {
               "location": "LoginStepDefinition.login_page_is_displayed()"
@@ -110,31 +110,38 @@
           },
           {
             "result": {
-              "duration": 1174215583,
+              "duration": 2290456340,
               "status": "passed"
             },
-            "line": 59,
-            "name": "user enters username and password",
+            "line": 72,
+            "name": "user enters their username and password",
             "match": {
-              "location": "LoginStepDefinition.user_enters_username_and_password(DataTable)"
+              "location": "LoginStepDefinition.user_enters_their_username_and_password(DataTable)"
             },
             "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 73
+              },
               {
                 "cells": [
                   "mngr115134",
                   "vEtYtYt"
                 ],
-                "line": 60
+                "line": 74
               }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2139555823,
+              "duration": 2424288058,
               "status": "passed"
             },
-            "line": 61,
+            "line": 75,
             "name": "user clicks on Login button",
             "match": {
               "location": "LoginStepDefinition.user_clicks_on_Login_button()"
@@ -143,10 +150,10 @@
           },
           {
             "result": {
-              "duration": 23462007,
+              "duration": 18795570,
               "status": "passed"
             },
-            "line": 62,
+            "line": 76,
             "name": "user is on Home page",
             "match": {
               "location": "LoginStepDefinition.user_is_on_Home_page()"
@@ -155,10 +162,10 @@
           },
           {
             "result": {
-              "duration": 67834110,
+              "duration": 168820694,
               "status": "passed"
             },
-            "line": 63,
+            "line": 77,
             "name": "user clicks on Add Customer Link",
             "match": {
               "location": "LoginStepDefinition.user_clicks_on_Add_Customer_Link()"
@@ -167,15 +174,26 @@
           },
           {
             "result": {
-              "duration": 6810435512,
+              "duration": 7875163309,
               "status": "passed"
             },
-            "line": 64,
-            "name": "user enters customer details Customer Name and Gender and Date of Birth and City and State and PIN",
+            "line": 78,
+            "name": "user enters multiple customer details Customer Name and Gender and Date of Birth and City and State and PIN",
             "match": {
-              "location": "LoginStepDefinition.user_enters_customer_details_Customer_Name_and_Gender_and_Date_of_Birth_and_City_and_State_and_PIN(DataTable)"
+              "location": "LoginStepDefinition.user_enters_multiple_customer_details_Customer_Name_and_Gender_and_Date_of_Birth_and_City_and_State_and_PIN(DataTable)"
             },
             "rows": [
+              {
+                "cells": [
+                  "Customername",
+                  "Gender",
+                  "DateofBirth",
+                  "City",
+                  "State",
+                  "PIN"
+                ],
+                "line": 79
+              },
               {
                 "cells": [
                   "max",
@@ -183,19 +201,41 @@
                   "13/05/1856",
                   "Coimbatore",
                   "Tamil Nadu",
+                  "621050"
+                ],
+                "line": 80
+              },
+              {
+                "cells": [
+                  "Tom",
+                  "m",
+                  "14/05/1856",
+                  "Chennai",
+                  "Tamil Nadu",
                   "600125"
                 ],
-                "line": 65
+                "line": 81
+              },
+              {
+                "cells": [
+                  "jill",
+                  "f",
+                  "15/05/1856",
+                  "Namakkal",
+                  "Tamil Nadu",
+                  "630123"
+                ],
+                "line": 82
               }
             ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1134158710,
+              "duration": 3815747321,
               "status": "passed"
             },
-            "line": 66,
+            "line": 83,
             "name": "user closes the browser",
             "match": {
               "location": "LoginStepDefinition.user_closes_the_browser()"
@@ -205,8 +245,8 @@
         ],
         "tags": [
           {
-            "line": 55,
-            "name": "@tag4"
+            "line": 68,
+            "name": "@tag5"
           }
         ]
       }

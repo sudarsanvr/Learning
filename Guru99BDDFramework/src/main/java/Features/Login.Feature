@@ -64,3 +64,20 @@ Feature: Title of your feature
     And user enters customer details Customer Name and Gender and Date of Birth and City and State and PIN
     |	max	|	f	|	13/05/1856	|	Coimbatore	|	Tamil Nadu	|	600125	|
     And user closes the browser
+    
+    @tag5
+  Scenario: Guru99 Successful login using DataTables
+    Given user is on the login screen
+    When Login page is displayed
+    Then user enters their username and password
+    | username		| password	|
+    | mngr115134	| vEtYtYt 	|
+    Then user clicks on Login button
+    And user is on Home page
+    Then user clicks on Add Customer Link
+    And user enters multiple customer details Customer Name and Gender and Date of Birth and City and State and PIN
+    | Customername	| Gender | DateofBirth 	| City 				| State			  | PIN			|
+    |			max				|		f		 |	13/05/1856	|	Coimbatore	|	Tamil Nadu	|	621050	|
+    |			Tom				|		m		 |	14/05/1856	|	Chennai			|	Tamil Nadu	|	600125	|
+    |			jill			|		f		 |	15/05/1856	|	Namakkal		|	Tamil Nadu	|	630123	|
+    And user closes the browser
