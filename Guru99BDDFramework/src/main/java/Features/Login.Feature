@@ -22,10 +22,8 @@ Feature: Title of your feature
 
   @Smoketest 
   Scenario: Title of your scenario
-    Given user opens a brower
-    When user enters the URL on the address bar
+    Given user is on the login screen
     Then user checks the title of the page
-    And user closes the browser
 
   @Regressiontest
   Scenario: Guru99 Successful login
@@ -34,7 +32,6 @@ Feature: Title of your feature
     Then user enters the username and password
     Then user clicks on Login button
     And user is on Home page
-    And user closes the browser
 
   @Smoketest
   Scenario Outline: Guru99 Successful login
@@ -45,7 +42,6 @@ Feature: Title of your feature
     And user is on Home page
     Then user clicks on Add Customer Link
     And user enters customer details "<Customer Name>" and "<Gender>" and "<Date of Birth>" and "<City>" and "<State>" and "<PIN>"
-    And user closes the browser
 
     Examples: 
       | username   | password | Customer Name | Gender | Date of Birth | City       | State | PIN    |
@@ -63,7 +59,6 @@ Feature: Title of your feature
     Then user clicks on Add Customer Link
     And user enters customer details Customer Name and Gender and Date of Birth and City and State and PIN
       | max | f | 13/05/1856 | Coimbatore | Tamil Nadu | 600125 |
-    And user closes the browser
 
   @Smoketest
   Scenario: Guru99 Successful login using DataTables
@@ -80,4 +75,3 @@ Feature: Title of your feature
       | max          | f      | 13/05/1856  | Coimbatore | Tamil Nadu | 621050 |
       | Tom          | m      | 14/05/1856  | Chennai    | Tamil Nadu | 600125 |
       | jill         | f      | 15/05/1856  | Namakkal   | Tamil Nadu | 630123 |
-    And user closes the browser

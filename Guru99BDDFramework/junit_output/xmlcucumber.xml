@@ -1,62 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0">
-<testcase classname="Title of your feature" name="Title of your scenario" time="0">
-<system-out><![CDATA[Given user opens a brower...................................................skipped
-When user enters the URL on the address bar.................................skipped
-Then user checks the title of the page......................................skipped
-And user closes the browser.................................................skipped
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="391.369985">
+<testcase classname="Title of your feature" name="Title of your scenario" time="33.699291">
+<system-out><![CDATA[Given user is on the login screen...........................................passed
+Then user checks the title of the page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Title of your feature" name="Guru99 Successful login" time="0">
-<system-out><![CDATA[Given user is on the login screen...........................................skipped
-When Login page is displayed................................................skipped
-Then user enters the username and password..................................skipped
-Then user clicks on Login button............................................skipped
-And user is on Home page....................................................skipped
-And user closes the browser.................................................skipped
+<testcase classname="Title of your feature" name="Guru99 Successful login" time="20.379138">
+<system-out><![CDATA[Given user is on the login screen...........................................passed
+When Login page is displayed................................................passed
+Then user enters the username and password..................................passed
+Then user clicks on Login button............................................passed
+And user is on Home page....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Title of your feature" name="Guru99 Successful login" time="0">
-<system-out><![CDATA[Given user is on the login screen...........................................skipped
-When Login page is displayed................................................skipped
-Then user enters the "mngr115134" and "vEtYtYt".............................skipped
-Then user clicks on Login button............................................skipped
-And user is on Home page....................................................skipped
-Then user clicks on Add Customer Link.......................................skipped
-And user enters customer details "sunder" and "m" and "13/05/1986" and "Chennai" and "TN" and "600125".skipped
-And user closes the browser.................................................skipped
+<testcase classname="Title of your feature" name="Guru99 Successful login" time="22.056187">
+<system-out><![CDATA[Given user is on the login screen...........................................passed
+When Login page is displayed................................................passed
+Then user enters the "mngr115134" and "vEtYtYt".............................passed
+Then user clicks on Login button............................................passed
+And user is on Home page....................................................passed
+Then user clicks on Add Customer Link.......................................passed
+And user enters customer details "sunder" and "m" and "13/05/1986" and "Chennai" and "TN" and "600125".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Title of your feature" name="Guru99 Successful login 2" time="0">
-<system-out><![CDATA[Given user is on the login screen...........................................skipped
-When Login page is displayed................................................skipped
-Then user enters the "mngr115134" and "vEtYtYt".............................skipped
-Then user clicks on Login button............................................skipped
-And user is on Home page....................................................skipped
-Then user clicks on Add Customer Link.......................................skipped
-And user enters customer details "rajan" and "f" and "14/06/1989" and "coimbatore" and "TN" and "631099".skipped
-And user closes the browser.................................................skipped
+<testcase classname="Title of your feature" name="Guru99 Successful login 2" time="27.498679">
+<system-out><![CDATA[Given user is on the login screen...........................................passed
+When Login page is displayed................................................passed
+Then user enters the "mngr115134" and "vEtYtYt".............................passed
+Then user clicks on Login button............................................passed
+And user is on Home page....................................................passed
+Then user clicks on Add Customer Link.......................................passed
+And user enters customer details "rajan" and "f" and "14/06/1989" and "coimbatore" and "TN" and "631099".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Title of your feature" name="Guru99 Successful login using DataTables" time="0">
-<system-out><![CDATA[Given user is on the login screen...........................................skipped
-When Login page is displayed................................................skipped
-Then user enters username and password......................................skipped
-Then user clicks on Login button............................................skipped
-And user is on Home page....................................................skipped
-Then user clicks on Add Customer Link.......................................skipped
-And user enters customer details Customer Name and Gender and Date of Birth and City and State and PIN.skipped
-And user closes the browser.................................................skipped
+<testcase classname="Title of your feature" name="Guru99 Successful login using DataTables" time="261.52263">
+<system-out><![CDATA[Given user is on the login screen...........................................passed
+When Login page is displayed................................................passed
+Then user enters username and password......................................passed
+Then user clicks on Login button............................................passed
+And user is on Home page....................................................passed
+Then user clicks on Add Customer Link.......................................passed
+And user enters customer details Customer Name and Gender and Date of Birth and City and State and PIN.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Title of your feature" name="Guru99 Successful login using DataTables" time="0">
-<system-out><![CDATA[Given user is on the login screen...........................................skipped
-When Login page is displayed................................................skipped
-Then user enters their username and password................................skipped
-Then user clicks on Login button............................................skipped
-And user is on Home page....................................................skipped
-Then user clicks on Add Customer Link.......................................skipped
-And user enters multiple customer details Customer Name and Gender and Date of Birth and City and State and PIN.skipped
-And user closes the browser.................................................skipped
+<testcase classname="Title of your feature" name="Guru99 Successful login using DataTables" time="26.21406">
+<system-out><![CDATA[Given user is on the login screen...........................................passed
+When Login page is displayed................................................passed
+Then user enters their username and password................................passed
+Then user clicks on Login button............................................passed
+And user is on Home page....................................................passed
+Then user clicks on Add Customer Link.......................................passed
+And user enters multiple customer details Customer Name and Gender and Date of Birth and City and State and PIN.passed
 ]]></system-out>
 </testcase>
 </testsuite>

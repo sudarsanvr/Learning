@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import cucumber.api.DataTable;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -16,22 +18,16 @@ import org.testng.Assert;
 public class LoginStepDefinition {
 	WebDriver driver;
 
-	@Given("^user opens a brower$")
-	public void user_opens_a_brower() {
+	@Before
+	public void setup() {
 		driver = new FirefoxDriver();
-	}
-
-	@When("^user enters the URL on the address bar$")
-	public void user_enters_the_URL_on_the_address_bar() {
-		driver.get("http://www.demo.guru99.com/v4/");
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	@Given("^user is on the login screen$")
 	public void user_is_on_the_login_screen() {
-		user_opens_a_brower();
-		user_enters_the_URL_on_the_address_bar();
+		driver.get("http://www.demo.guru99.com/v4/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	@Then("^user enters username and password$")
@@ -127,8 +123,8 @@ public class LoginStepDefinition {
 		Thread.sleep(5000);
 	}
 
-	@And("^user closes the browser$")
-	public void user_closes_the_browser() {
+	@After
+	public void teardown() {
 		driver.quit();
 	}
 }
