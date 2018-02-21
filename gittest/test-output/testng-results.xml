@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="49782" started-at="2018-02-21T08:44:30Z" finished-at="2018-02-21T08:45:20Z">
     <groups>
     </groups>
@@ -40,6 +41,46 @@
           </reporter-output>
         </test-method> <!-- successfulLoginTest -->
         <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@56ac3a89]" name="quit" is-config="true" duration-ms="731" started-at="2018-02-21T14:15:19Z" finished-at="2018-02-21T14:15:20Z">
+=======
+  <suite name="Default suite" duration-ms="62087" started-at="2018-02-21T08:38:01Z" finished-at="2018-02-21T08:39:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62087" started-at="2018-02-21T08:38:01Z" finished-at="2018-02-21T08:39:03Z">
+      <class name="com.guru99.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@56ac3a89]" name="setup" is-config="true" duration-ms="22764" started-at="2018-02-21T14:08:01Z" finished-at="2018-02-21T14:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTitleTest()[pri:1, instance:com.guru99.qa.testcases.LoginPageTest@56ac3a89]" name="LoginTitleTest" duration-ms="60" started-at="2018-02-21T14:08:23Z" finished-at="2018-02-21T14:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTitleTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@56ac3a89]" name="quit" is-config="true" duration-ms="1941" started-at="2018-02-21T14:08:23Z" finished-at="2018-02-21T14:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@56ac3a89]" name="setup" is-config="true" duration-ms="15668" started-at="2018-02-21T14:08:25Z" finished-at="2018-02-21T14:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginLogoTest()[pri:2, instance:com.guru99.qa.testcases.LoginPageTest@56ac3a89]" name="LoginLogoTest" duration-ms="347" started-at="2018-02-21T14:08:41Z" finished-at="2018-02-21T14:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogoTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@56ac3a89]" name="quit" is-config="true" duration-ms="1965" started-at="2018-02-21T14:08:41Z" finished-at="2018-02-21T14:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@56ac3a89]" name="setup" is-config="true" duration-ms="14582" started-at="2018-02-21T14:08:43Z" finished-at="2018-02-21T14:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="successfulLoginTest()[pri:3, instance:com.guru99.qa.testcases.LoginPageTest@56ac3a89]" name="successfulLoginTest" duration-ms="3840" started-at="2018-02-21T14:08:58Z" finished-at="2018-02-21T14:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.guru99.qa.testcases.LoginPageTest@56ac3a89]" name="quit" is-config="true" duration-ms="868" started-at="2018-02-21T14:09:02Z" finished-at="2018-02-21T14:09:03Z">
+>>>>>>> master
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
