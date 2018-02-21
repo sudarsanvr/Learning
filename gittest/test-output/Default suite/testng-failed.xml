@@ -5,6 +5,8 @@
     <classes>
       <class name="com.guru99.qa.testcases.LoginPageTest">
         <methods>
+          <include name="LoginTitleTest"/>
+          <include name="LoginLogoTest"/>
           <include name="successfulLoginTest"/>
           <include name="quit"/>
           <include name="setup"/>
