@@ -86,12 +86,26 @@ formatter.feature({
     }
   ]
 });
-formatter.before({
-  "duration": 22084539815,
-  "status": "passed"
+formatter.background({
+  "line": 23,
+  "name": "User is logging In",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 24,
+  "name": "User is on the login screen",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
-  "line": 24,
+  "line": 28,
   "name": "Title of your scenario",
   "description": "",
   "id": "title-of-your-feature;title-of-your-scenario",
@@ -99,45 +113,42 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 23,
+      "line": 26,
       "name": "@Smoketest"
     }
   ]
 });
 formatter.step({
-  "line": 25,
-  "name": "user is on the login screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 26,
+  "line": 29,
   "name": "user checks the title of the page",
   "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-});
-formatter.result({
-  "duration": 8552375019,
-  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_checks_the_title_of_the_page()"
 });
 formatter.result({
-  "duration": 33855817,
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.after({
-  "duration": 3028520741,
-  "status": "passed"
+formatter.background({
+  "line": 23,
+  "name": "User is logging In",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
 });
-formatter.before({
-  "duration": 9963382557,
-  "status": "passed"
+formatter.step({
+  "line": 24,
+  "name": "User is on the login screen",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
-  "line": 29,
+  "line": 32,
   "name": "Guru99 Successful login",
   "description": "",
   "id": "title-of-your-feature;guru99-successful-login",
@@ -145,77 +156,55 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 28,
+      "line": 31,
       "name": "@Regressiontest"
     }
   ]
 });
 formatter.step({
-  "line": 30,
-  "name": "user is on the login screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 31,
+  "line": 33,
   "name": "Login page is displayed",
   "keyword": "When "
 });
 formatter.step({
-  "line": 32,
+  "line": 34,
   "name": "user enters the username and password",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 33,
+  "line": 35,
   "name": "user clicks on Login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 34,
+  "line": 36,
   "name": "user is on Home page",
   "keyword": "And "
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-});
-formatter.result({
-  "duration": 4375917551,
-  "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.login_page_is_displayed()"
 });
 formatter.result({
-  "duration": 42137107,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_enters_the_username_and_password()"
 });
 formatter.result({
-  "duration": 2396837922,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Login_button()"
 });
 formatter.result({
-  "duration": 2417254268,
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_Home_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 18247449,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 1165360713,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenarioOutline({
-  "line": 37,
+  "line": 39,
   "name": "Guru99 Successful login",
   "description": "",
   "id": "title-of-your-feature;guru99-successful-login",
@@ -223,48 +212,43 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 36,
+      "line": 38,
       "name": "@Smoketest"
     }
   ]
 });
 formatter.step({
-  "line": 38,
-  "name": "user is on the login screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 39,
+  "line": 40,
   "name": "Login page is displayed",
   "keyword": "When "
 });
 formatter.step({
-  "line": 40,
+  "line": 41,
   "name": "user enters the \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 41,
+  "line": 42,
   "name": "user clicks on Login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 42,
+  "line": 43,
   "name": "user is on Home page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 43,
+  "line": 44,
   "name": "user clicks on Add Customer Link",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 44,
+  "line": 45,
   "name": "user enters customer details \"\u003cCustomer Name\u003e\" and \"\u003cGender\u003e\" and \"\u003cDate of Birth\u003e\" and \"\u003cCity\u003e\" and \"\u003cState\u003e\" and \"\u003cPIN\u003e\"",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 46,
+  "line": 47,
   "name": "",
   "description": "",
   "id": "title-of-your-feature;guru99-successful-login;",
@@ -280,13 +264,13 @@ formatter.examples({
         "State",
         "PIN"
       ],
-      "line": 47,
+      "line": 48,
       "id": "title-of-your-feature;guru99-successful-login;;1"
     },
     {
       "cells": [
-        "mngr115134",
-        "vEtYtYt",
+        "mngr120674",
+        "EdabeqE",
         "sunder",
         "m",
         "13/05/1986",
@@ -294,13 +278,13 @@ formatter.examples({
         "TN",
         "600125"
       ],
-      "line": 48,
+      "line": 49,
       "id": "title-of-your-feature;guru99-successful-login;;2"
     },
     {
       "cells": [
-        "mngr115134",
-        "vEtYtYt",
+        "mngr120674",
+        "EdabeqE",
         "rajan",
         "f",
         "14/06/1989",
@@ -308,18 +292,32 @@ formatter.examples({
         "TN",
         "631099"
       ],
-      "line": 49,
+      "line": 50,
       "id": "title-of-your-feature;guru99-successful-login;;3"
     }
   ],
   "keyword": "Examples"
 });
-formatter.before({
-  "duration": 8811432087,
-  "status": "passed"
+formatter.background({
+  "line": 23,
+  "name": "User is logging In",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 24,
+  "name": "User is on the login screen",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
-  "line": 48,
+  "line": 49,
   "name": "Guru99 Successful login",
   "description": "",
   "id": "title-of-your-feature;guru99-successful-login;;2",
@@ -331,24 +329,19 @@ formatter.scenario({
       "name": "@tag"
     },
     {
-      "line": 36,
+      "line": 38,
       "name": "@Smoketest"
     }
   ]
 });
 formatter.step({
-  "line": 38,
-  "name": "user is on the login screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 39,
+  "line": 40,
   "name": "Login page is displayed",
   "keyword": "When "
 });
 formatter.step({
-  "line": 40,
-  "name": "user enters the \"mngr115134\" and \"vEtYtYt\"",
+  "line": 41,
+  "name": "user enters the \"mngr120674\" and \"EdabeqE\"",
   "matchedColumns": [
     0,
     1
@@ -356,22 +349,22 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 41,
+  "line": 42,
   "name": "user clicks on Login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 42,
+  "line": 43,
   "name": "user is on Home page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 43,
+  "line": 44,
   "name": "user clicks on Add Customer Link",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 44,
+  "line": 45,
   "name": "user enters customer details \"sunder\" and \"m\" and \"13/05/1986\" and \"Chennai\" and \"TN\" and \"600125\"",
   "matchedColumns": [
     2,
@@ -384,56 +377,42 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-});
-formatter.result({
-  "duration": 2521979695,
-  "status": "passed"
-});
-formatter.match({
   "location": "LoginStepDefinition.login_page_is_displayed()"
 });
 formatter.result({
-  "duration": 21217249,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "mngr115134",
+      "val": "mngr120674",
       "offset": 17
     },
     {
-      "val": "vEtYtYt",
+      "val": "EdabeqE",
       "offset": 34
     }
   ],
   "location": "LoginStepDefinition.user_enters_the_and(String,String)"
 });
 formatter.result({
-  "duration": 1030252781,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Login_button()"
 });
 formatter.result({
-  "duration": 2118185408,
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_Home_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 16874840,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Add_Customer_Link()"
 });
 formatter.result({
-  "duration": 139041686,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -465,19 +444,28 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_customer_details(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 6426072912,
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.after({
-  "duration": 971130595,
-  "status": "passed"
+formatter.background({
+  "line": 23,
+  "name": "User is logging In",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
 });
-formatter.before({
-  "duration": 13829488797,
-  "status": "passed"
+formatter.step({
+  "line": 24,
+  "name": "User is on the login screen",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
-  "line": 49,
+  "line": 50,
   "name": "Guru99 Successful login",
   "description": "",
   "id": "title-of-your-feature;guru99-successful-login;;3",
@@ -489,24 +477,19 @@ formatter.scenario({
       "name": "@tag"
     },
     {
-      "line": 36,
+      "line": 38,
       "name": "@Smoketest"
     }
   ]
 });
 formatter.step({
-  "line": 38,
-  "name": "user is on the login screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 39,
+  "line": 40,
   "name": "Login page is displayed",
   "keyword": "When "
 });
 formatter.step({
-  "line": 40,
-  "name": "user enters the \"mngr115134\" and \"vEtYtYt\"",
+  "line": 41,
+  "name": "user enters the \"mngr120674\" and \"EdabeqE\"",
   "matchedColumns": [
     0,
     1
@@ -514,22 +497,22 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 41,
+  "line": 42,
   "name": "user clicks on Login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 42,
+  "line": 43,
   "name": "user is on Home page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 43,
+  "line": 44,
   "name": "user clicks on Add Customer Link",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 44,
+  "line": 45,
   "name": "user enters customer details \"rajan\" and \"f\" and \"14/06/1989\" and \"coimbatore\" and \"TN\" and \"631099\"",
   "matchedColumns": [
     2,
@@ -542,56 +525,42 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-});
-formatter.result({
-  "duration": 2633213352,
-  "status": "passed"
-});
-formatter.match({
   "location": "LoginStepDefinition.login_page_is_displayed()"
 });
 formatter.result({
-  "duration": 15719120,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "mngr115134",
+      "val": "mngr120674",
       "offset": 17
     },
     {
-      "val": "vEtYtYt",
+      "val": "EdabeqE",
       "offset": 34
     }
   ],
   "location": "LoginStepDefinition.user_enters_the_and(String,String)"
 });
 formatter.result({
-  "duration": 1396505666,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Login_button()"
 });
 formatter.result({
-  "duration": 2114870533,
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_Home_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 26275958,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Add_Customer_Link()"
 });
 formatter.result({
-  "duration": 129477003,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -623,19 +592,28 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_customer_details(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 6253049274,
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.after({
-  "duration": 1100078962,
-  "status": "passed"
+formatter.background({
+  "line": 23,
+  "name": "User is logging In",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
 });
-formatter.before({
-  "duration": 8479985643,
-  "status": "passed"
+formatter.step({
+  "line": 24,
+  "name": "User is on the login screen",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
-  "line": 52,
+  "line": 53,
   "name": "Guru99 Successful login using DataTables",
   "description": "",
   "id": "title-of-your-feature;guru99-successful-login-using-datatables",
@@ -643,19 +621,14 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 51,
+      "line": 52,
       "name": "@Smoketest"
     },
     {
-      "line": 51,
+      "line": 52,
       "name": "@Regressiontest"
     }
   ]
-});
-formatter.step({
-  "line": 53,
-  "name": "user is on the login screen",
-  "keyword": "Given "
 });
 formatter.step({
   "line": 54,
@@ -668,8 +641,8 @@ formatter.step({
   "rows": [
     {
       "cells": [
-        "mngr115134",
-        "vEtYtYt"
+        "mngr120674",
+        "EdabeqE"
       ],
       "line": 56
     }
@@ -710,61 +683,56 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-});
-formatter.result({
-  "duration": 241091387991,
-  "status": "passed"
-});
-formatter.match({
   "location": "LoginStepDefinition.login_page_is_displayed()"
 });
 formatter.result({
-  "duration": 14075783,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_enters_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 765441727,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Login_button()"
 });
 formatter.result({
-  "duration": 2973914270,
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_Home_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 214733631,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Add_Customer_Link()"
 });
 formatter.result({
-  "duration": 189895400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_enters_customer_details_Customer_Name_and_Gender_and_Date_of_Birth_and_City_and_State_and_PIN(DataTable)"
 });
 formatter.result({
-  "duration": 6763565605,
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.after({
-  "duration": 1029629801,
-  "status": "passed"
+formatter.background({
+  "line": 23,
+  "name": "User is logging In",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
 });
-formatter.before({
-  "duration": 11311748449,
-  "status": "passed"
+formatter.step({
+  "line": 24,
+  "name": "User is on the login screen",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 64,
@@ -782,16 +750,11 @@ formatter.scenario({
 });
 formatter.step({
   "line": 65,
-  "name": "user is on the login screen",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 66,
   "name": "Login page is displayed",
   "keyword": "When "
 });
 formatter.step({
-  "line": 67,
+  "line": 66,
   "name": "user enters their username and password",
   "rows": [
     {
@@ -799,35 +762,35 @@ formatter.step({
         "username",
         "password"
       ],
-      "line": 68
+      "line": 67
     },
     {
       "cells": [
-        "mngr115134",
-        "vEtYtYt"
+        "mngr120674",
+        "EdabeqE"
       ],
-      "line": 69
+      "line": 68
     }
   ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 70,
+  "line": 69,
   "name": "user clicks on Login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 71,
+  "line": 70,
   "name": "user is on Home page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 72,
+  "line": 71,
   "name": "user clicks on Add Customer Link",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 73,
+  "line": 72,
   "name": "user enters multiple customer details Customer Name and Gender and Date of Birth and City and State and PIN",
   "rows": [
     {
@@ -839,7 +802,7 @@ formatter.step({
         "State",
         "PIN"
       ],
-      "line": 74
+      "line": 73
     },
     {
       "cells": [
@@ -850,7 +813,7 @@ formatter.step({
         "Tamil Nadu",
         "621050"
       ],
-      "line": 75
+      "line": 74
     },
     {
       "cells": [
@@ -861,7 +824,7 @@ formatter.step({
         "Tamil Nadu",
         "600125"
       ],
-      "line": 76
+      "line": 75
     },
     {
       "cells": [
@@ -872,62 +835,43 @@ formatter.step({
         "Tamil Nadu",
         "630123"
       ],
-      "line": 77
+      "line": 76
     }
   ],
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-});
-formatter.result({
-  "duration": 3196081116,
-  "status": "passed"
-});
-formatter.match({
   "location": "LoginStepDefinition.login_page_is_displayed()"
 });
 formatter.result({
-  "duration": 65085884,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_enters_their_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 280752705,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Login_button()"
 });
 formatter.result({
-  "duration": 2986302620,
-  "status": "passed"
+  "status": "skipped"
 });
-formatter.match({
-  "location": "LoginStepDefinition.user_is_on_Home_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 15695021,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Add_Customer_Link()"
 });
 formatter.result({
-  "duration": 111180844,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_enters_multiple_customer_details_Customer_Name_and_Gender_and_Date_of_Birth_and_City_and_State_and_PIN(DataTable)"
 });
 formatter.result({
-  "duration": 7567362970,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 679850279,
-  "status": "passed"
+  "status": "skipped"
 });
 });

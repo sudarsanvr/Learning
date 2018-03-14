@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		,tags={"@Smoketest , @Regressiontest"}
 		,glue={"stepdefinition"}
 		,format = {"pretty","html:test-output","json:json_output\\jsoncucumber.json","junit:junit_output\\xmlcucumber.xml"}
-		,dryRun=false
+		,dryRun=true
 		,monochrome=true
 		,strict = true
 		)

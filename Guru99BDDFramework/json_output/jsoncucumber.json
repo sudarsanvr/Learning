@@ -77,53 +77,38 @@
     "line": 20,
     "elements": [
       {
-        "before": [
+        "line": 23,
+        "name": "User is logging In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
           {
             "result": {
-              "duration": 22084539815,
-              "status": "passed"
+              "status": "skipped"
             },
+            "line": 24,
+            "name": "User is on the login screen",
             "match": {
-              "location": "LoginStepDefinition.setup()"
-            }
+              "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+            },
+            "keyword": "Given "
           }
-        ],
-        "line": 24,
+        ]
+      },
+      {
+        "line": 28,
         "name": "Title of your scenario",
         "description": "",
         "id": "title-of-your-feature;title-of-your-scenario",
-        "after": [
-          {
-            "result": {
-              "duration": 3028520741,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginStepDefinition.teardown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8552375019,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 25,
-            "name": "user is on the login screen",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 33855817,
-              "status": "passed"
-            },
-            "line": 26,
+            "line": 29,
             "name": "user checks the title of the page",
             "match": {
               "location": "LoginStepDefinition.user_checks_the_title_of_the_page()"
@@ -133,59 +118,44 @@
         ],
         "tags": [
           {
-            "line": 23,
+            "line": 26,
             "name": "@Smoketest"
           }
         ]
       },
       {
-        "before": [
+        "line": 23,
+        "name": "User is logging In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
           {
             "result": {
-              "duration": 9963382557,
-              "status": "passed"
+              "status": "skipped"
             },
+            "line": 24,
+            "name": "User is on the login screen",
             "match": {
-              "location": "LoginStepDefinition.setup()"
-            }
+              "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+            },
+            "keyword": "Given "
           }
-        ],
-        "line": 29,
+        ]
+      },
+      {
+        "line": 32,
         "name": "Guru99 Successful login",
         "description": "",
         "id": "title-of-your-feature;guru99-successful-login",
-        "after": [
-          {
-            "result": {
-              "duration": 1165360713,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginStepDefinition.teardown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4375917551,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 30,
-            "name": "user is on the login screen",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 42137107,
-              "status": "passed"
-            },
-            "line": 31,
+            "line": 33,
             "name": "Login page is displayed",
             "match": {
               "location": "LoginStepDefinition.login_page_is_displayed()"
@@ -194,10 +164,9 @@
           },
           {
             "result": {
-              "duration": 2396837922,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 32,
+            "line": 34,
             "name": "user enters the username and password",
             "match": {
               "location": "LoginStepDefinition.user_enters_the_username_and_password()"
@@ -206,10 +175,9 @@
           },
           {
             "result": {
-              "duration": 2417254268,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 33,
+            "line": 35,
             "name": "user clicks on Login button",
             "match": {
               "location": "LoginStepDefinition.user_clicks_on_Login_button()"
@@ -218,72 +186,54 @@
           },
           {
             "result": {
-              "duration": 18247449,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 34,
+            "line": 36,
             "name": "user is on Home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_Home_page()"
-            },
+            "match": {},
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "line": 28,
+            "line": 31,
             "name": "@Regressiontest"
           }
         ]
       },
       {
-        "before": [
+        "line": 23,
+        "name": "User is logging In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
           {
             "result": {
-              "duration": 8811432087,
-              "status": "passed"
+              "status": "skipped"
             },
+            "line": 24,
+            "name": "User is on the login screen",
             "match": {
-              "location": "LoginStepDefinition.setup()"
-            }
+              "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+            },
+            "keyword": "Given "
           }
-        ],
-        "line": 48,
+        ]
+      },
+      {
+        "line": 49,
         "name": "Guru99 Successful login",
         "description": "",
         "id": "title-of-your-feature;guru99-successful-login;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 971130595,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginStepDefinition.teardown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2521979695,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 38,
-            "name": "user is on the login screen",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 21217249,
-              "status": "passed"
-            },
-            "line": 39,
+            "line": 40,
             "name": "Login page is displayed",
             "match": {
               "location": "LoginStepDefinition.login_page_is_displayed()"
@@ -292,19 +242,18 @@
           },
           {
             "result": {
-              "duration": 1030252781,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 40,
-            "name": "user enters the \"mngr115134\" and \"vEtYtYt\"",
+            "line": 41,
+            "name": "user enters the \"mngr120674\" and \"EdabeqE\"",
             "match": {
               "arguments": [
                 {
-                  "val": "mngr115134",
+                  "val": "mngr120674",
                   "offset": 17
                 },
                 {
-                  "val": "vEtYtYt",
+                  "val": "EdabeqE",
                   "offset": 34
                 }
               ],
@@ -318,10 +267,9 @@
           },
           {
             "result": {
-              "duration": 2118185408,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 41,
+            "line": 42,
             "name": "user clicks on Login button",
             "match": {
               "location": "LoginStepDefinition.user_clicks_on_Login_button()"
@@ -330,22 +278,18 @@
           },
           {
             "result": {
-              "duration": 16874840,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 42,
+            "line": 43,
             "name": "user is on Home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_Home_page()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 139041686,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 43,
+            "line": 44,
             "name": "user clicks on Add Customer Link",
             "match": {
               "location": "LoginStepDefinition.user_clicks_on_Add_Customer_Link()"
@@ -354,10 +298,9 @@
           },
           {
             "result": {
-              "duration": 6426072912,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 44,
+            "line": 45,
             "name": "user enters customer details \"sunder\" and \"m\" and \"13/05/1986\" and \"Chennai\" and \"TN\" and \"600125\"",
             "match": {
               "arguments": [
@@ -405,59 +348,44 @@
             "name": "@tag"
           },
           {
-            "line": 36,
+            "line": 38,
             "name": "@Smoketest"
           }
         ]
       },
       {
-        "before": [
+        "line": 23,
+        "name": "User is logging In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
           {
             "result": {
-              "duration": 13829488797,
-              "status": "passed"
+              "status": "skipped"
             },
+            "line": 24,
+            "name": "User is on the login screen",
             "match": {
-              "location": "LoginStepDefinition.setup()"
-            }
+              "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+            },
+            "keyword": "Given "
           }
-        ],
-        "line": 49,
+        ]
+      },
+      {
+        "line": 50,
         "name": "Guru99 Successful login",
         "description": "",
         "id": "title-of-your-feature;guru99-successful-login;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 1100078962,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginStepDefinition.teardown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2633213352,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 38,
-            "name": "user is on the login screen",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 15719120,
-              "status": "passed"
-            },
-            "line": 39,
+            "line": 40,
             "name": "Login page is displayed",
             "match": {
               "location": "LoginStepDefinition.login_page_is_displayed()"
@@ -466,19 +394,18 @@
           },
           {
             "result": {
-              "duration": 1396505666,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 40,
-            "name": "user enters the \"mngr115134\" and \"vEtYtYt\"",
+            "line": 41,
+            "name": "user enters the \"mngr120674\" and \"EdabeqE\"",
             "match": {
               "arguments": [
                 {
-                  "val": "mngr115134",
+                  "val": "mngr120674",
                   "offset": 17
                 },
                 {
-                  "val": "vEtYtYt",
+                  "val": "EdabeqE",
                   "offset": 34
                 }
               ],
@@ -492,10 +419,9 @@
           },
           {
             "result": {
-              "duration": 2114870533,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 41,
+            "line": 42,
             "name": "user clicks on Login button",
             "match": {
               "location": "LoginStepDefinition.user_clicks_on_Login_button()"
@@ -504,22 +430,18 @@
           },
           {
             "result": {
-              "duration": 26275958,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 42,
+            "line": 43,
             "name": "user is on Home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_Home_page()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 129477003,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 43,
+            "line": 44,
             "name": "user clicks on Add Customer Link",
             "match": {
               "location": "LoginStepDefinition.user_clicks_on_Add_Customer_Link()"
@@ -528,10 +450,9 @@
           },
           {
             "result": {
-              "duration": 6253049274,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 44,
+            "line": 45,
             "name": "user enters customer details \"rajan\" and \"f\" and \"14/06/1989\" and \"coimbatore\" and \"TN\" and \"631099\"",
             "match": {
               "arguments": [
@@ -579,57 +500,42 @@
             "name": "@tag"
           },
           {
-            "line": 36,
+            "line": 38,
             "name": "@Smoketest"
           }
         ]
       },
       {
-        "before": [
+        "line": 23,
+        "name": "User is logging In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
           {
             "result": {
-              "duration": 8479985643,
-              "status": "passed"
+              "status": "skipped"
             },
+            "line": 24,
+            "name": "User is on the login screen",
             "match": {
-              "location": "LoginStepDefinition.setup()"
-            }
+              "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+            },
+            "keyword": "Given "
           }
-        ],
-        "line": 52,
+        ]
+      },
+      {
+        "line": 53,
         "name": "Guru99 Successful login using DataTables",
         "description": "",
         "id": "title-of-your-feature;guru99-successful-login-using-datatables",
-        "after": [
-          {
-            "result": {
-              "duration": 1029629801,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginStepDefinition.teardown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 241091387991,
-              "status": "passed"
-            },
-            "line": 53,
-            "name": "user is on the login screen",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 14075783,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 54,
             "name": "Login page is displayed",
@@ -640,8 +546,7 @@
           },
           {
             "result": {
-              "duration": 765441727,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 55,
             "name": "user enters username and password",
@@ -651,8 +556,8 @@
             "rows": [
               {
                 "cells": [
-                  "mngr115134",
-                  "vEtYtYt"
+                  "mngr120674",
+                  "EdabeqE"
                 ],
                 "line": 56
               }
@@ -661,8 +566,7 @@
           },
           {
             "result": {
-              "duration": 2973914270,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 57,
             "name": "user clicks on Login button",
@@ -673,20 +577,16 @@
           },
           {
             "result": {
-              "duration": 214733631,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 58,
             "name": "user is on Home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_Home_page()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 189895400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 59,
             "name": "user clicks on Add Customer Link",
@@ -697,8 +597,7 @@
           },
           {
             "result": {
-              "duration": 6763565605,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 60,
             "name": "user enters customer details Customer Name and Gender and Date of Birth and City and State and PIN",
@@ -723,63 +622,48 @@
         ],
         "tags": [
           {
-            "line": 51,
+            "line": 52,
             "name": "@Smoketest"
           },
           {
-            "line": 51,
+            "line": 52,
             "name": "@Regressiontest"
           }
         ]
       },
       {
-        "before": [
+        "line": 23,
+        "name": "User is logging In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
           {
             "result": {
-              "duration": 11311748449,
-              "status": "passed"
+              "status": "skipped"
             },
+            "line": 24,
+            "name": "User is on the login screen",
             "match": {
-              "location": "LoginStepDefinition.setup()"
-            }
+              "location": "LoginStepDefinition.User_is_on_the_login_screen()"
+            },
+            "keyword": "Given "
           }
-        ],
+        ]
+      },
+      {
         "line": 64,
         "name": "Guru99 Successful login using DataTables",
         "description": "",
         "id": "title-of-your-feature;guru99-successful-login-using-datatables",
-        "after": [
-          {
-            "result": {
-              "duration": 679850279,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginStepDefinition.teardown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3196081116,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 65,
-            "name": "user is on the login screen",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_the_login_screen()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 65085884,
-              "status": "passed"
-            },
-            "line": 66,
             "name": "Login page is displayed",
             "match": {
               "location": "LoginStepDefinition.login_page_is_displayed()"
@@ -788,10 +672,9 @@
           },
           {
             "result": {
-              "duration": 280752705,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 67,
+            "line": 66,
             "name": "user enters their username and password",
             "match": {
               "location": "LoginStepDefinition.user_enters_their_username_and_password(DataTable)"
@@ -802,24 +685,23 @@
                   "username",
                   "password"
                 ],
-                "line": 68
+                "line": 67
               },
               {
                 "cells": [
-                  "mngr115134",
-                  "vEtYtYt"
+                  "mngr120674",
+                  "EdabeqE"
                 ],
-                "line": 69
+                "line": 68
               }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2986302620,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 70,
+            "line": 69,
             "name": "user clicks on Login button",
             "match": {
               "location": "LoginStepDefinition.user_clicks_on_Login_button()"
@@ -828,22 +710,18 @@
           },
           {
             "result": {
-              "duration": 15695021,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 71,
+            "line": 70,
             "name": "user is on Home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_Home_page()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 111180844,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 72,
+            "line": 71,
             "name": "user clicks on Add Customer Link",
             "match": {
               "location": "LoginStepDefinition.user_clicks_on_Add_Customer_Link()"
@@ -852,10 +730,9 @@
           },
           {
             "result": {
-              "duration": 7567362970,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 73,
+            "line": 72,
             "name": "user enters multiple customer details Customer Name and Gender and Date of Birth and City and State and PIN",
             "match": {
               "location": "LoginStepDefinition.user_enters_multiple_customer_details_Customer_Name_and_Gender_and_Date_of_Birth_and_City_and_State_and_PIN(DataTable)"
@@ -870,7 +747,7 @@
                   "State",
                   "PIN"
                 ],
-                "line": 74
+                "line": 73
               },
               {
                 "cells": [
@@ -881,7 +758,7 @@
                   "Tamil Nadu",
                   "621050"
                 ],
-                "line": 75
+                "line": 74
               },
               {
                 "cells": [
@@ -892,7 +769,7 @@
                   "Tamil Nadu",
                   "600125"
                 ],
-                "line": 76
+                "line": 75
               },
               {
                 "cells": [
@@ -903,7 +780,7 @@
                   "Tamil Nadu",
                   "630123"
                 ],
-                "line": 77
+                "line": 76
               }
             ],
             "keyword": "And "

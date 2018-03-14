@@ -16,18 +16,20 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
-Feature: Title of your feature
+	@tag
+	Feature: Title of your feature
   I want to use this template for my feature file
+    
+  Background: User is logging In
+  		Given User is on the login screen
 
-  @Smoketest 
+  @Smoketest
+
   Scenario: Title of your scenario
-    Given user is on the login screen
     Then user checks the title of the page
 
   @Regressiontest
   Scenario: Guru99 Successful login
-    Given user is on the login screen
     When Login page is displayed
     Then user enters the username and password
     Then user clicks on Login button
@@ -35,7 +37,6 @@ Feature: Title of your feature
 
   @Smoketest
   Scenario Outline: Guru99 Successful login
-    Given user is on the login screen
     When Login page is displayed
     Then user enters the "<username>" and "<password>"
     Then user clicks on Login button
@@ -45,15 +46,14 @@ Feature: Title of your feature
 
     Examples: 
       | username   | password | Customer Name | Gender | Date of Birth | City       | State | PIN    |
-      | mngr115134 | vEtYtYt  | sunder        | m      | 13/05/1986    | Chennai    | TN    | 600125 |
-      | mngr115134 | vEtYtYt  | rajan         | f      | 14/06/1989    | coimbatore | TN    | 631099 |
+      | mngr120674 | EdabeqE  | sunder        | m      | 13/05/1986    | Chennai    | TN    | 600125 |
+      | mngr120674 | EdabeqE  | rajan         | f      | 14/06/1989    | coimbatore | TN    | 631099 |
 
   @Smoketest @Regressiontest
   Scenario: Guru99 Successful login using DataTables
-    Given user is on the login screen
     When Login page is displayed
     Then user enters username and password
-      | mngr115134 | vEtYtYt |
+      | mngr120674 | EdabeqE |
     Then user clicks on Login button
     And user is on Home page
     Then user clicks on Add Customer Link
@@ -62,11 +62,10 @@ Feature: Title of your feature
 
   @Smoketest
   Scenario: Guru99 Successful login using DataTables
-    Given user is on the login screen
     When Login page is displayed
     Then user enters their username and password
       | username   | password |
-      | mngr115134 | vEtYtYt  |
+      | mngr120674 | EdabeqE  |
     Then user clicks on Login button
     And user is on Home page
     Then user clicks on Add Customer Link
@@ -75,3 +74,5 @@ Feature: Title of your feature
       | max          | f      | 13/05/1856  | Coimbatore | Tamil Nadu | 621050 |
       | Tom          | m      | 14/05/1856  | Chennai    | Tamil Nadu | 600125 |
       | jill         | f      | 15/05/1856  | Namakkal   | Tamil Nadu | 630123 |
+
+      
